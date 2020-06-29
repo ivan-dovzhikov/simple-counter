@@ -1,0 +1,29 @@
+.counter-button {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-color: #333;
+  font-size: 1rem;
+  color: #f1f1f1;
+}
+
+.counter-button:hover {
+  background-color: #444;
+}
+
+.counter-button:active {
+  background-color: #222;
+  outline: none;
+}
+
+.counter-current {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 2rem;
+  min-width: 2rem;
+  padding: 0 0.1rem;
+  background-color: #f1f1f1;
+  color: #333;
+}
